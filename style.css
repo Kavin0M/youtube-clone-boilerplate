@@ -69,6 +69,7 @@ input{
     text-align: left;
     top: 85px;
     left: 260px;
+    width: 1200px;
 }
 
 #content span{
@@ -84,4 +85,33 @@ input{
 
 #main img{
     height: 150px;
+}
+
+#main div{
+    position: absolute;
+    display: inline;
+}
+
+#row2{
+    left: 300px;
+}
+
+#row3{
+    left: 600px;
+}
+
+#row4{
+    left: 900px;
+}
+
+.info{
+    display: block;
+    width: 267px;
+    height: 40px;
+}
+
+.info img{
+    padding-bottom: 5px;
+    width: 25px;
+    height: 25px !important;
 }
