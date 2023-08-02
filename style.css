@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#side-bar{
+    width: 230px;
+    height: 100vh;
+}
+
+#hambarger, #logo{
+    height: 25px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+li,b{
+    list-style-type: none;
+    padding: 2px;
+    padding-left: 20px;
+}
+
+img{
+    position: relative;
+    height: 30px;
+    top: 10px;
+    padding-right: 20px;
+}
+
+.sub-list  img{
+    width: 25px;
+    height: 25px;
+}
