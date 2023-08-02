@@ -4,6 +4,7 @@
 }
 
 #side-bar{
+    border: 1px solid red;
     width: 230px;
     height: 100vh;
 }
@@ -30,4 +31,57 @@ img{
 .sub-list  img{
     width: 25px;
     height: 25px;
+}
+
+input{
+    height: 35px;
+    width: 600px;
+}
+
+#top-bar, #content, #main{
+    text-align: center;
+    width: 207vh;
+    position: absolute;
+    top: 0;
+}
+
+#search-bar{
+    position: relative;
+    left: 100px;
+}
+
+#search-bar img{
+    padding-left: 20px;
+}
+
+#search{
+    padding-left: 5px;
+    background-color: gray;
+    height: 34px;
+}
+
+#other{
+    position: absolute;
+    right: 0px;
+}
+
+#content, #main{
+    text-align: left;
+    top: 85px;
+    left: 260px;
+}
+
+#content span{
+    background-color: gray;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+}
+
+#main{
+    top: 140px;
+}
+
+#main img{
+    height: 150px;
 }
