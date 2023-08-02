@@ -7,8 +7,9 @@
 }
 
 #side-bar{
-    width: 230px;
-    height: 100vh;
+    width: 240px;
+    height: 115vh;
+    background-color: gray;
 }
 
 #hambarger, #logo{
