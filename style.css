@@ -1,10 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 #side-bar{
-    border: 1px solid red;
     width: 230px;
     height: 100vh;
 }
@@ -104,14 +106,24 @@ input{
     left: 900px;
 }
 
-.info{
+.info {
     display: block;
     width: 267px;
-    height: 40px;
+    height: 70px;
 }
 
 .info img{
     padding-bottom: 5px;
     width: 25px;
     height: 25px !important;
+}
+
+.text{
+    font-size: small;
+    color: gray;
+}
+
+.text img{
+    height: 12px !important;
+    width: 12px;
 }
